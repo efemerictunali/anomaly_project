@@ -1,0 +1,44 @@
+veri/trafik.csv oluşturuldu: 520 satır
+Okunan satır sayısı: 520
+Örnek vektör (ilk satır): [979.0, 1088.0, 20.0]
+
+μ (normal): [1192.47, 798.78, 25.0]
+σ (normal): [145.41, 100.84, 5.04]
+Centroid (z-skor uzayında): [0.0, 0.0, 0.0]
+
+Normal Öklid mesafeleri: μd = 1.597, σd = 0.671
+Eşik (μd + 3σd) = 3.609
+
+--- ANOMALİ OLARAK ETİKETLENEN SATIRLAR ---
+Zaman                  Öklid   Manhattan   Gerçek etiket
+2026-10-20 08:22       4.068       6.024   normal  -> ANOMALİ
+2026-10-20 08:29      65.005      75.213   anormal  -> ANOMALİ
+2026-10-20 08:44      52.331      62.151   anormal  -> ANOMALİ
+2026-10-20 08:46      86.856      97.492   anormal  -> ANOMALİ
+2026-10-20 09:03      61.475      72.691   anormal  -> ANOMALİ
+2026-10-20 09:08      88.611      98.649   anormal  -> ANOMALİ
+2026-10-20 09:17       3.799       5.999   normal  -> ANOMALİ
+2026-10-20 09:40      76.371      86.046   anormal  -> ANOMALİ
+2026-10-20 09:45      85.517      96.876   anormal  -> ANOMALİ
+2026-10-20 09:46      54.057      64.381   anormal  -> ANOMALİ
+2026-10-20 10:13      68.155      77.980   anormal  -> ANOMALİ
+2026-10-20 10:18      77.046      87.112   anormal  -> ANOMALİ
+2026-10-20 10:54      58.688      69.509   anormal  -> ANOMALİ
+2026-10-20 12:01       3.852       5.960   normal  -> ANOMALİ
+2026-10-20 12:08      81.661      91.606   anormal  -> ANOMALİ
+2026-10-20 12:14      49.505      60.386   anormal  -> ANOMALİ
+2026-10-20 12:18      60.604      70.520   anormal  -> ANOMALİ
+2026-10-20 12:20      81.286      91.310   anormal  -> ANOMALİ
+2026-10-20 12:36      90.198     101.257   anormal  -> ANOMALİ
+2026-10-20 13:07      55.366      64.819   anormal  -> ANOMALİ
+2026-10-20 15:05      95.194     105.320   anormal  -> ANOMALİ
+2026-10-20 16:15      57.033      66.475   anormal  -> ANOMALİ
+2026-10-20 16:30      67.741      78.863   anormal  -> ANOMALİ
+
+Toplam ANOMALİ: 23
+Bunlardan gerçekten anormal olan: 20 / 20
+
+--- ÖKLİD VE MANHATTAN KARŞILAŞTIRMASI ---
+Metrik           Normal ort.    Anormal ort.      Oran
+Öklid                  1.597          70.635      44.2
+Manhattan              2.394          80.933      33.8
